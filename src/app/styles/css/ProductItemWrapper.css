@@ -1,0 +1,24 @@
+.ProductItemWrapper {
+    width: 263px;
+}
+
+.ProductItemWrapper {
+    cursor: pointer;
+    position: relative;
+
+}
+
+.ProductItemWrapper:hover {
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16);
+}
+
+.ProductItemWrapper .ProductItemHoverBlock {
+    position: absolute;
+    top: 0;
+    width: 263px;
+    height: 290px;
+    margin-bottom: 40px;
+    transition: opacity 400ms ease;
+}
+
+

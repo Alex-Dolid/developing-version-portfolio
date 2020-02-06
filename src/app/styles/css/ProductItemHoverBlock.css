@@ -1,0 +1,22 @@
+
+.ProductItemHoverBlock-enter {
+    opacity: 0.1;
+}
+
+.ProductItemHoverBlock-enter.ProductItemHoverBlock-enter-active {
+    opacity: 0.1;
+    transition: opacity 500ms ease-in;
+}
+
+.ProductItemHoverBlock-exit {
+    opacity: 0.1;
+}
+
+.ProductItemHoverBlock-exit.ProductItemHoverBlock-exit-active {
+    opacity: 0.1;
+    transition: opacity 300ms ease-in;
+}
+
+.ProductItemHoverBlock-enter-done {
+    opacity: 0.7;
+}
